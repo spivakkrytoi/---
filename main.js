@@ -7,7 +7,7 @@ function createSnowflake() {
   snowflake.style.left = Math.random() * window.innerWidth + "px";
   snowflake.style.fontSize = Math.random() * 5 + 15 + "px"; // Випадковий розмір
   snowflake.style.animation = `fall ${Math.random() * 5 + 3}s linear`;
-  snowflake.style.animationDuration = `${Math.random() * 5 + 10}s`; // Тривалість падіння
+  snowflake.style.animationDuration = `${Math.random() * 2 + 10}s`; // Тривалість падіння
 
   document.body.appendChild(snowflake);
 
