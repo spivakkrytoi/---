@@ -7,7 +7,7 @@ function createSnowflake() {
   snowflake.style.left = Math.random() * window.innerWidth + "px";
   snowflake.style.fontSize = Math.random() * 5 + 15 + "px"; // Випадковий розмір
   snowflake.style.animation = `fall ${Math.random() * 5 + 3}s linear`;
-  snowflake.style.animationDuration = `${Math.random() * 2 + 10}s`; // Тривалість падіння
+  snowflake.style.animationDuration = `${Math.random() * 2 + 8}s`; // Тривалість падіння
 
   document.body.appendChild(snowflake);
 
@@ -17,5 +17,5 @@ function createSnowflake() {
   }, 10000);
 }
 
-// Запускаємо сніжинки кожні 200 мс
-setInterval(createSnowflake, 200);
+// Запускаємо сніжинки кожні 400 мс
+setInterval(createSnowflake, 400);
